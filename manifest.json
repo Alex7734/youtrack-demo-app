@@ -1,0 +1,22 @@
+{
+  "name": "jetbrains-task-app",
+  "title": "Jetbrains Task App",
+  "description": "Jetbrains task app",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "",
+    "url": ""
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "project-list",
+      "name": "Project-List",
+      "indexPath": "project-list/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "iconPath": "project-list/widget-icon.svg",
+      "description": "Project list"
+    }
+  ]
+}
